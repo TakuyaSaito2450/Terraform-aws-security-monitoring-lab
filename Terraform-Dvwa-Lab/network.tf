@@ -41,7 +41,7 @@ resource "aws_security_group" "dvwa_sg" {
     from_port   = 22
     to_port     = 22
     protocol    = "tcp"
-    cidr_blocks = ["113.154.78.107/32"] # あなたのグローバルIPを設定
+    cidr_blocks = ["xxx.xxx.xxx.xxx/xxx"] # あなたのグローバルIPを設定
   }
 
   ingress {
